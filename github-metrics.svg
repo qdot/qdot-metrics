@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1208" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1158" class="">
     <defs>
         <style/>
     </defs>
@@ -30,8 +30,8 @@
                         <div class="field calendar">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 11" width="210" height="16">
                                 <g>
-                                    <rect class="day" x="0" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
-                                    <rect class="day" x="15" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
+                                    <rect class="day" x="0" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
+                                    <rect class="day" x="15" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="30" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="45" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="60" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
@@ -40,8 +40,8 @@
                                     <rect class="day" x="105" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="120" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="135" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="150" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="165" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
+                                    <rect class="day" x="150" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
+                                    <rect class="day" x="165" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="180" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="195" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                 </g>
@@ -82,7 +82,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            63997 Commits
+                            63425 Commits
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -269,7 +269,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path d="M10.896 2H8.75V.75a.75.75 0 00-1.5 0V2H5.104a.25.25 0 00-.177.427l2.896 2.896a.25.25 0 00.354 0l2.896-2.896A.25.25 0 0010.896 2zM8.75 15.25a.75.75 0 01-1.5 0V14H5.104a.25.25 0 01-.177-.427l2.896-2.896a.25.25 0 01.354 0l2.896 2.896a.25.25 0 01-.177.427H8.75v1.25zm-6.5-6.5a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5zM6 8a.75.75 0 01-.75.75h-.5a.75.75 0 010-1.5h.5A.75.75 0 016 8zm2.25.75a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5zM12 8a.75.75 0 01-.75.75h-.5a.75.75 0 010-1.5h.5A.75.75 0 0112 8zm2.25.75a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5z"/>
                             </svg>
-                            Average per day at ~1.56
+                            Average per day at ~1.55
                         </div>
                     </section>
                 </div>
@@ -1257,6 +1257,11 @@
                                 <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
                                 <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
                             </g>
+                            <g transform="translate(-1.7, 7)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
                         </g>
                     </g>
                 </svg>
@@ -1284,84 +1289,17 @@
                                 <div class="details">
                                     <div>on branch <span class="code">v4</span></div>
                                     <div class="commit">
-                                        <div class="sha">#1db3bfd</div>
-                                        <div class="message">chore: Fix range value calculation for stop (0) values</div>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 2 commits in
-                                        <span class="repo">buttplugio/buttplug</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">v4</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#5943747</div>
-                                        <div class="message">chore: Fix various issues with field naming/json schema</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#d1f38dd</div>
-                                        <div class="message">chore: Update device config schema for new messageless format</div>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 9 commits in
-                                        <span class="repo">buttplugio/buttplug</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">v4</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#d0256e1</div>
-                                        <div class="message">chore: Formatting</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#f619ca7</div>
-                                        <div class="message">test: Update tests for ActuatorCmd/SensorCmd/RawCmd</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#fb56aed</div>
-                                        <div class="message">chore: Fill out stop types, actuator command types in routing</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#4c78d78</div>
-                                        <div class="message">chore: Remove extraneous type check on stopmsgs</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#64699ee</div>
-                                        <div class="message">chore: Remove unused lifetimes</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#5fef30b</div>
-                                        <div class="message">chore: Update device config for new formats w/ no msg list</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#cf2964a</div>
-                                        <div class="message">chore: warnings cleanup</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#578f3ce</div>
-                                        <div class="message">chore: run rustfmt</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#db02a77</div>
-                                        <div class="message">chore: Run clippy w/ fixes</div>
+                                        <div class="sha">#6a364d9</div>
+                                        <div class="message">feat: Change Actuator/Sensor to Output/Input
+
+buttplug.io is now ACTUALLY buttplug.io
+
+This is the dumbest yet most on-brand commit I have made to this library
+
+There's more references in variables around the code to actuator/sensor but
+this cleans up the message names and a good bit of the internal variables.
+
+Fixes #722</div>
                                     </div>
                                 </div>
                             </section>
@@ -1380,12 +1318,15 @@
                                 <div class="details">
                                     <div>on branch <span class="code">v4</span></div>
                                     <div class="commit">
-                                        <div class="sha">#6a79c58</div>
-                                        <div class="message">feat: Move to using ActuatorCmd/SensorCmd/RawCmd
+                                        <div class="sha">#47d8c56</div>
+                                        <div class="message">feat: Change Actuator/Sensor to Output/Input
 
-Turn message formats inside out again, creating container formats
+buttplug.io is now ACTUALLY buttplug.io
 
-Affects #709, #712, #722</div>
+This is the dumbest yet most on-brand commit I have made to this library
+
+There's more references in variables around the code to actuator/sensor but
+this cleans up the message names and a good bit of the internal variables.</div>
                                     </div>
                                 </div>
                             </section>
@@ -1394,16 +1335,91 @@ Affects #709, #712, #722</div>
                             <section class="activity">
                                 <div class="field">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path d="M8 9.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"/>
-                                        <path fill-rule="evenodd" d="M8 0a8 8 0 100 16A8 8 0 008 0zM1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0z"/>
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
-                                        Opened
-                                        <span class="issue">#725 Fix per-feature last value checking for v4 impl</span>
+                                        Pushed 5 commits in
+                                        <span class="repo">buttplugio/buttplug</span>
                                     </div>
                                 </div>
                                 <div class="details">
-                                    <div>opened  in <span class="repo">buttplugio/buttplug</span></div>
+                                    <div>on branch <span class="code">v4</span></div>
+                                    <div class="commit">
+                                        <div class="sha">#d181c4e</div>
+                                        <div class="message">chore: fix unused import</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#7b50352</div>
+                                        <div class="message">chore: Remove serialize-json feature, just default to building in
+
+We use json so much anyways and the server is almost never built
+standalone, this isn't really guarding much, while adding a ton of
+complexity.
+
+Fixes #719</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#5faf4a4</div>
+                                        <div class="message">chore: rustfmt changes</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#7fcd8b3</div>
+                                        <div class="message">chore: Un-feature-flag serde de/serializer trait generation
+
+We'll just build it out everywhere, we never compile without some sort
+of serde at this point. We also require json deserialization for our required
+config files now, so there's really no reason to build without it.</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#7dbd59d</div>
+                                        <div class="message">chore: Remove unused server_info file</div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed 2 commits in
+                                        <span class="repo">buttplugio/buttplug</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">v4</span></div>
+                                    <div class="commit">
+                                        <div class="sha">#b4b5052</div>
+                                        <div class="message">chore: Restore vibcrafter and xinput protocols</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#6278000</div>
+                                        <div class="message">test: Remove duplication test for userve
+
+We don't allow repeat messages through so not sure this test is valid now</div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed 1 commit in
+                                        <span class="repo">buttplugio/buttplug</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">v4</span></div>
+                                    <div class="commit">
+                                        <div class="sha">#1db3bfd</div>
+                                        <div class="message">chore: Fix range value calculation for stop (0) values</div>
+                                    </div>
                                 </div>
                             </section>
                         </div>
@@ -1430,7 +1446,7 @@ Affects #709, #712, #722</div>
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 16 Jun 2025, 01:41:20  with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 17 Jun 2025, 01:38:29  with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
